@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip animado com Clip-path em CSS</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #693b94;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .tooltip {
+        background: #2e91b8;
+        color: white;
+        padding: 1em;
+        border-radius: 10px;
+        width:  250px;
+        clip-path: circle(10% at 90% 20%);
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    
+    .tooltip:hover {
+        clip-path: circle(100%);
+    }
+
+    .tooltip:hover span{
+        opacity: 0;
+    }
+
+
+    .icon{
+      font-weight: bold; 
+      float: right;
+      margin-right: 3% ;
+      margin-top: -3%;
+      transition: opacity 0.3s;;
+    }
+
+</style>
+<body>
+
+    <div class="tooltip">
+    <span class="icon"> i </span>
+        <h1> Tooltip </h1>
+        <p class="text">
+            Tooltip em ação.
+        </p>
+    </div>
+
+</body>
+</html>
