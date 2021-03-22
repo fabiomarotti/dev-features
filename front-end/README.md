@@ -1,10 +1,10 @@
 # Front-end
 ## HTML , CSS, JavaScript
 
-[ ] pagina 1
+[ ] 01: CSS - Animação Card : hover
 
-[ ] pagina 2
+[ ] 02
 
-[ ] pagina 3
+[ ] 03
 
 
