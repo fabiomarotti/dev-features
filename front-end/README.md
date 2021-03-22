@@ -1,9 +1,9 @@
 # Front-end
 ## HTML , CSS, JavaScript
 
-[✅ ] 01: CSS - Animação Card : hover
+[✅] 01: CSS - Animação Card : hover
 
-[ ] 02
+[✅] 02: CSS - Animação Tooltip (clip-path) 
 
 [ ] 03
 
